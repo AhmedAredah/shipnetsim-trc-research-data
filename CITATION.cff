@@ -4,6 +4,7 @@ type: dataset
 title: "Research Data for Query-Local Hierarchical Visibility Graphs with Phased Adjacency for Geometry-Derived Maritime Route Construction"
 version: 1.0.0
 date-released: 2026-10-17
+doi: 10.5281/zenodo.23434878
 authors:
   - family-names: Aredah
     given-names: Ahmed

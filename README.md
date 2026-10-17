@@ -1,5 +1,7 @@
 # ShipNetSim TR-C research data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23434877.svg)](https://doi.org/10.5281/zenodo.23434877)
+
 This repository contains the research data supporting the manuscript **“Query-Local Hierarchical Visibility Graphs with Phased Adjacency for Geometry-Derived Maritime Route Construction.”** The 48 comma-separated-value files report the route, validation, sensitivity, and performance evidence analyzed in the article and its supplementary material.
 
 ## Contents
@@ -29,7 +31,7 @@ The evaluated software is maintained in the [ShipNetSim repository](https://gith
 
 ## Citation
 
-Please cite the archived dataset release. Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The Zenodo DOI will be added after the first archived release.
+Please cite the archived dataset release. Version 1.0.0 is available at [https://doi.org/10.5281/zenodo.23434878](https://doi.org/10.5281/zenodo.23434878); the version-independent dataset DOI is [https://doi.org/10.5281/zenodo.23434877](https://doi.org/10.5281/zenodo.23434877). Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
