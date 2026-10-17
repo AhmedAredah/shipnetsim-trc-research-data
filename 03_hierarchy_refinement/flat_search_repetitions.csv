@@ -1,0 +1,17 @@
+route_index,route,observation_type,repetition,order,astar_expanded_vertices,dijkstra_expanded_vertices,astar_termination,dijkstra_termination,astar_length_meters,dijkstra_length_meters,common_immutable_graph,outcome_checks_passed
+1,Antwerpen--Zeebrugge,measured_pair,1,astar_then_dijkstra,65,71,goal_reached,goal_reached,99221.1231614572059598,99221.1231614572059598,True,True
+1,Antwerpen--Zeebrugge,measured_pair,2,dijkstra_then_astar,65,71,goal_reached,goal_reached,99221.1231614572059598,99221.1231614572059598,True,True
+1,Antwerpen--Zeebrugge,measured_pair,3,astar_then_dijkstra,65,71,goal_reached,goal_reached,99221.1231614572059598,99221.1231614572059598,True,True
+1,Antwerpen--Zeebrugge,measured_pair,4,dijkstra_then_astar,65,71,goal_reached,goal_reached,99221.1231614572059598,99221.1231614572059598,True,True
+1,Antwerpen--Zeebrugge,measured_pair,5,astar_then_dijkstra,65,71,goal_reached,goal_reached,99221.1231614572059598,99221.1231614572059598,True,True
+2,Santos--Paranagu\'a,measured_pair,1,astar_then_dijkstra,41,66,goal_reached,goal_reached,308793.242339927924831,308793.242339927924831,True,True
+2,Santos--Paranagu\'a,measured_pair,2,dijkstra_then_astar,41,66,goal_reached,goal_reached,308793.242339927924831,308793.242339927924831,True,True
+2,Santos--Paranagu\'a,measured_pair,3,astar_then_dijkstra,41,66,goal_reached,goal_reached,308793.242339927924831,308793.242339927924831,True,True
+2,Santos--Paranagu\'a,measured_pair,4,dijkstra_then_astar,41,66,goal_reached,goal_reached,308793.242339927924831,308793.242339927924831,True,True
+2,Santos--Paranagu\'a,measured_pair,5,astar_then_dijkstra,41,66,goal_reached,goal_reached,308793.242339927924831,308793.242339927924831,True,True
+3,New York--Boston,exhausted_graph_observation,0,astar_then_dijkstra,483,483,open_set_exhausted,open_set_exhausted,,,True,True
+4,Brisbane--Newcastle,measured_pair,1,astar_then_dijkstra,323,330,goal_reached,goal_reached,2217505.17877277365574,2217505.17877277365574,True,True
+4,Brisbane--Newcastle,measured_pair,2,dijkstra_then_astar,323,330,goal_reached,goal_reached,2217505.17877277365574,2217505.17877277365574,True,True
+4,Brisbane--Newcastle,measured_pair,3,astar_then_dijkstra,323,330,goal_reached,goal_reached,2217505.17877277365574,2217505.17877277365574,True,True
+4,Brisbane--Newcastle,measured_pair,4,dijkstra_then_astar,323,330,goal_reached,goal_reached,2217505.17877277365574,2217505.17877277365574,True,True
+4,Brisbane--Newcastle,measured_pair,5,astar_then_dijkstra,323,330,goal_reached,goal_reached,2217505.17877277365574,2217505.17877277365574,True,True

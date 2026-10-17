@@ -1,0 +1,15 @@
+comparison,before,after,cases,availability_changes,fallback_changes,valid_paired_lengths,changed_lengths,longer_routes,shorter_routes,median_length_change_meters,minimum_length_change_meters,maximum_length_change_meters
+leave_one_out,full,oat_no_hierarchy,12,0,0,12,4,3,1,0.0,-21208.197463949444,60380.54980855947
+leave_one_out,full,oat_no_corridor,12,0,0,12,2,1,1,0.0,-4119.030531584052,2943.0861002337188
+leave_one_out,full,oat_no_guide_projection,12,0,0,12,2,2,0,0.0,0.0,404332.8810611996
+leave_one_out,full,oat_no_directional_candidates,12,0,0,12,4,3,1,0.0,-69348.09167351108,86576.87940176472
+leave_one_out,full,oat_no_ocean_steiner,12,0,2,12,5,4,1,0.0,-81570.37953587435,339411.1466590108
+leave_one_out,full,oat_no_ocean_spine,12,0,0,12,0,0,0,0.0,0.0,0.0
+leave_one_out,full,oat_no_recovery,12,0,0,12,2,1,1,0.0,-4119.030531584052,14969.585610989016
+nested_transition,full,oat_no_hierarchy,12,0,0,12,4,3,1,0.0,-21208.197463949444,60380.54980855947
+nested_transition,oat_no_hierarchy,nested_2_no_corridor,12,0,0,12,0,0,0,0.0,0.0,0.0
+nested_transition,nested_2_no_corridor,nested_3_no_guide_projection,12,0,0,12,0,0,0,0.0,0.0,0.0
+nested_transition,nested_3_no_guide_projection,nested_4_no_directional_candidates,12,0,1,12,2,2,0,0.0,0.0,360619.34412296023
+nested_transition,nested_4_no_directional_candidates,nested_5_no_ocean_spine,12,0,0,12,2,2,0,0.0,0.0,126231.16788158473
+nested_transition,nested_5_no_ocean_spine,nested_6_no_ocean_steiner,12,0,1,12,5,2,3,0.0,-139622.46965395287,128913.69009474409
+nested_transition,nested_6_no_ocean_steiner,nested_7_no_recovery,12,0,5,12,5,2,3,0.0,-255144.8579763288,129994.3130226488

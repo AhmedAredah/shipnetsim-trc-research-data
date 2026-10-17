@@ -1,0 +1,5 @@
+level,tolerance_factor,tolerance_degree,components,holes,relative_planar_area_change_percent,hausdorff_lower_bound_degree,hausdorff_upper_bound_degree,minimum_clearance_degree,all_components_valid,hausdorff_bound_interpretation
+0,0.0,0,2,6825,0,0,0,8.756282580987473e-06,True,reference_level
+1,0.2,0.005073659983034784,6,5748,0.002400381388452623,20.288600367617235,20.497966666772452,7.093564250923787e-06,True,bound_exceeds_simplification_tolerance
+2,1.0,0.02536829991517392,41,3175,0.024144662247928116,20.382172782231766,20.50699941198177,5.888107476233573e-07,True,bound_exceeds_simplification_tolerance
+3,5.0,0.1268414995758696,36,630,0.20693235838879603,31.794527538422088,31.797578618120152,5.1841497172798563e-05,True,bound_exceeds_simplification_tolerance

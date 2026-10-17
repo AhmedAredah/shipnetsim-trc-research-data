@@ -1,0 +1,17 @@
+route_index,from,to,adapted_funke_route_available,failure_reason,wgs84_path_valid,dijkstra_wgs84_path_valid,adapted_funke_length_m,present_method_length_m,hierarchy_minus_dijkstra_m,adapted_funke_minus_present_percent,path_points,start_connector_m,goal_connector_m
+1,Antwerpen,Zeebrugge,true,,true,true,95121.1216059,93312.7937662,0,1.9379205859,38,0,0
+2,Santos,Paranagua,false,"start: no visible principal-component anchor among the 65,536 nearest candidates",,,,292557.555748,,,,,777.124663356
+3,NewYork,Boston,true,,true,true,575099.792057,497413.003659,0,15.618165956,75,0,3525.91320146
+4,Brisbane,Newcastle,true,,true,true,708738.469433,794100.645769,0,-10.7495412314,89,3993.21711525,0
+5,Rotterdam,Algeciras,true,,true,true,2617155.54146,2535603.19194,0,3.21628990634,166,7.07619225202e-10,1.06039329747e-09
+6,NewYork,Colon,true,,true,true,3791740.87087,4791063.04954,0,-20.8580469165,138,0,1126.19418984
+7,Colombo,Jeddah,true,,true,true,5406320.33779,5360774.52179,0,0.849612603896,170,854.319983447,7.05548144543e-10
+8,Singapore,Busan,true,,true,true,4829165.26292,4674677.0654,0,3.30478865927,228,3315.97494632,2716.02271805
+9,Rotterdam,NewYork,true,,true,true,6484055.39401,6167544.79508,0,5.13187353236,104,7.07619225202e-10,0
+10,Santos,CapeTown,false,"start: no visible principal-component anchor among the 65,536 nearest candidates",,,,6360347.68943,,,,,0
+11,CapeTown,Mumbai,true,,true,true,8884867.05957,8918874.23843,0,-0.381294521609,293,0,1.05832221681e-09
+12,Yokohama,LongBeach,true,,true,true,9491197.42433,9193479.83437,0,3.23835582745,150,2003.70726549,1.05970293725e-09
+13,Singapore,Jakarta,true,,true,true,970556.441398,982388.908555,0,-1.20445854528,108,996.218641545,8974.70031115
+14,Manila,HoChiMinh,true,,true,true,1729140.68113,1732995.54261,0,-0.222439203824,74,5225.44372866,2.22245789458e-09
+15,Piraeus,Istanbul,true,,true,true,673247.76999,650394.7855241158,0,3.51370966904,119,1.76732216246e-09,0
+16,Surabaya,Darwin,true,,true,true,2275094.12268,2282470.07636,0,-0.323156643334,142,3672.68675491,2936.93311545

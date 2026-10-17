@@ -1,0 +1,7 @@
+workload,later_position_n,hierarchy_preprocessing_median_seconds,later_position_route_processing_median_seconds,queries_for_preprocessing_share_at_most_50_percent,queries_for_preprocessing_share_at_most_10_percent
+balanced_route_mix,120,68.5743676405,6.6581025460000003,11,93
+route_1,24,68.5743676405,0.35561008999999999,193,1736
+route_3,24,68.5743676405,6.6581025460000003,11,93
+route_5,24,68.5743676405,4.1274719309999996,17,150
+route_15,24,68.5743676405,7.1313666944999996,10,87
+route_8,24,68.5743676405,14.930603549000001,5,42

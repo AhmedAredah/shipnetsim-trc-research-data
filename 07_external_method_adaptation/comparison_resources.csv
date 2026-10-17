@@ -1,0 +1,5 @@
+method,measured_workload,peak_rss_minimum_gib,peak_rss_maximum_gib,stored_serialized_artifact_minimum_mib,stored_serialized_artifact_maximum_mib,optional_stored_graph_minimum_mib,optional_stored_graph_maximum_mib,measurement_note
+present_method,source hierarchy plus 14 queries,0.7989540100097656,0.7989540100097656,0.0,0.0,0.0,0.0,No method-specific serialized artifact.
+funke_adaptation,source plus 14 queries,1.1436958312988281,1.1436958312988281,89.81431484222412,89.81431484222412,0.0,0.0,Contraction-hierarchy index.
+flat_astar_dijkstra,R1--R4 graph construction and search,1.032684326171875,1.0727882385253906,0.0,0.0,8.014481544494629,8.022573471069336,No required serialized artifact; graph size is reported if stored.
+ehl,"R1--R4 graph construction, labels, and lookup",1.032684326171875,1.0727882385253906,37.0694694519043,37.13149642944336,8.014481544494629,8.022573471069336,Label and ordering index; optional graph size is reported separately.

@@ -1,0 +1,23 @@
+article_item,evidence_file,contents
+Table 2 and hierarchy component audit,05_geometry_and_source_validation/hierarchy_census.csv,"Hierarchy, component, ring, and coordinate censuses."
+Hierarchy-fidelity audit supporting Table 2,05_geometry_and_source_validation/simplification_fidelity.csv,"Area, Hausdorff-bound, clearance, and validity diagnostics."
+Geodesic-screen calibration settings,05_geometry_and_source_validation/geodesic_screen_summary.csv,Convergence results for every evaluated screening setting.
+Geodesic-screen calibration fixtures,05_geometry_and_source_validation/geodesic_screen_case_definitions.csv,Complete calibration fixtures and reference classifications.
+Table 3 and endpoint diagnostics,01_primary_routes/primary_route_results.csv,"Primary route outcomes, refinement, timing, and graph size."
+Primary route geometry,01_primary_routes/route_waypoints.csv,All 391 ordered primary-route waypoints.
+Figure 5 and paired-source results,05_geometry_and_source_validation/paired_source_comparison.csv,Exact OD queries and paired distance contrasts.
+Paired-source route geometry,05_geometry_and_source_validation/paired_source_route_waypoints.csv,Ordered waypoints for all 72 returned routes.
+Fixed-graph search validation,02_search_and_representation_validation/fixed_graph_search_repetitions.csv,All 160 current A* and Dijkstra validation observations.
+Table 5,02_search_and_representation_validation/representation_correctness.csv,Finite-reference lengths and representation loss.
+Structural cases,02_search_and_representation_validation/structural_case_definitions.csv,"Endpoints, sources, bounds, and coordinate censuses."
+Structural polygon geometry,02_search_and_representation_validation/structural_domain_vertices.csv,All ordered structural-domain ring vertices.
+Component analysis,03_hierarchy_refinement/component_repetitions.csv,"All 1,008 warmup and measured process observations."
+Table 6,03_hierarchy_refinement/treatment_summary.csv,Hierarchy-scale and refinement treatment contrasts.
+Table 7,04_parameter_sensitivity/repetitions.csv,"All 18,792 warmup and measured sensitivity observations."
+Table 8 and repeated-process results,06_performance/repeated_process_observations.csv,Balanced repeated-process timing and memory observations.
+Figure 6 and Table 9,07_external_method_adaptation/sparse_global_comparison.csv,"Matched present, sparse-flat A*/Dijkstra, and EHL measurements."
+Table 9,07_external_method_adaptation/comparison_resources.csv,Peak process memory and stored serialized artifacts.
+Figure 6 sparse-flat search measurements,03_hierarchy_refinement/flat_search_repetitions.csv,Measured pairs for accepted cases and the exhausted-graph case.
+Figure 6 Funke same-source adaptation,07_external_method_adaptation/query_timing_observations.csv,All indexed lookup observations on the adapted graph.
+Figure 6 Funke adaptation contract,07_external_method_adaptation/summary.csv,"Adapted graph, availability, validation, and timing census."
+Figure 6 source-to-batch comparison,07_external_method_adaptation/source_to_batch_stage_timings.csv,Measured construction and query phases for both complete workflows.

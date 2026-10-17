@@ -1,0 +1,4 @@
+changed_paths,maximum_length_difference_percent_vs_primary,median_length_difference_percent_vs_primary,median_query_seconds,minimum_length_difference_percent_vs_primary,query_timing_basis,query_timing_complete,query_timing_eligible_n,treatment,valid_routes
+0,0.0,0.0,4.306695135,0.0,timing_environment_accepted_current_measurements,False,15,exterior_refined,16
+16,16.868207154385395,0.6027382116012836,2.3589986025,-7.762031948164427,timing_environment_accepted_current_measurements,True,16,all_boundary_refined,16
+16,68.23199543192393,1.6121231553950621,2.675882814,0.07231071264086619,timing_environment_accepted_current_measurements,False,15,exterior_unrefined,16

@@ -1,0 +1,5 @@
+level,components,rings,holes,vertex_occurrences,exact_coordinates,unordered_pairs,envelope_disjoint,geos_disjoint,valid
+0,2,6827,6825,439967,439962,1,0,1,true
+1,6,5754,5748,221755,221755,15,10,5,true
+2,41,3216,3175,72138,72138,820,777,43,true
+3,36,666,630,13814,13814,630,592,38,true

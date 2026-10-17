@@ -1,0 +1,14 @@
+item,value
+software_archive_label,ShipNetSim-HVG-TRC-2026.10
+operating_system,Ubuntu 24.04
+processor,Intel Core i7-7500U; 2 cores; 4 threads; 2.70 GHz base; 3.50 GHz turbo
+compiler,GCC 13.3.0
+cplusplus,202100
+build_type,Release
+release_flags,-O3 -DNDEBUG
+Qt,6.11.2
+GDAL,"GDAL 3.13.0dev-4769b527b2, released 2026/01/23"
+GeographicLib,2.7
+GEOS,3.12.1
+candidate_screening_threads,1
+numeric_locale,C.utf8

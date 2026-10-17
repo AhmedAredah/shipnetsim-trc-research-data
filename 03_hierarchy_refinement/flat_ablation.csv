@@ -1,0 +1,13 @@
+route_index,route,selection_basis,representation,search,classification,route_returned,timing_basis,route_length_meters,points,segments,admitted_vertices,stored_undirected_edges,logical_unordered_candidate_pairs,visibility_checks,expanded_vertices,construction_seconds,search_seconds,construction_plus_search_seconds,query_seconds,right_censoring_lower_bound_seconds
+1,Antwerpen--Zeebrugge,four_previously_tested_short_route_controls,primary_hierarchical,A*,completed,True,primary_campaign_measurement,93312.79376619059,16,15,,,,,,,,,0.402778619,
+1,Antwerpen--Zeebrugge,four_previously_tested_short_route_controls,sparse_flat_level0,A*,completed,True,controlled_current_case,99221.1231614572,,,439962,306310,,,,20.537487433,0.021634377,20.55912181,,
+1,Antwerpen--Zeebrugge,four_previously_tested_short_route_controls,sparse_flat_level0,Dijkstra,completed,True,controlled_current_case,99221.1231614572,,,439962,306310,,,,20.537487433,0.022353274,20.559840707,,
+2,Santos--Paranagu\'a,four_previously_tested_short_route_controls,primary_hierarchical,A*,completed,True,primary_campaign_measurement,292557.555748123,11,10,,,,,,,,,0.211754799,
+2,Santos--Paranagu\'a,four_previously_tested_short_route_controls,sparse_flat_level0,A*,completed,True,not_reported,308793.242339928,,,439963,306493,,,,,,,,
+2,Santos--Paranagu\'a,four_previously_tested_short_route_controls,sparse_flat_level0,Dijkstra,completed,True,not_reported,308793.242339928,,,439963,306493,,,,,,,,
+3,New York--Boston,four_previously_tested_short_route_controls,primary_hierarchical,A*,completed,True,primary_campaign_measurement,497413.0036587642,16,15,,,,,,,,,10.861996321,
+3,New York--Boston,four_previously_tested_short_route_controls,sparse_flat_level0,A*,no_path,False,not_reported,,,,439962,306589,,,,,,,,
+3,New York--Boston,four_previously_tested_short_route_controls,sparse_flat_level0,Dijkstra,no_path,False,not_reported,,,,439962,306589,,,,,,,,
+4,Brisbane--Newcastle,four_previously_tested_short_route_controls,primary_hierarchical,A*,completed,True,primary_campaign_measurement,794100.6457692388,8,7,,,,,,,,,0.7443015,
+4,Brisbane--Newcastle,four_previously_tested_short_route_controls,sparse_flat_level0,A*,completed,True,not_reported,2217505.17877277,,,439962,306623,,,,,,,,
+4,Brisbane--Newcastle,four_previously_tested_short_route_controls,sparse_flat_level0,Dijkstra,completed,True,not_reported,2217505.17877277,,,439962,306623,,,,,,,,

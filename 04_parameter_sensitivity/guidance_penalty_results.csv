@@ -1,0 +1,6 @@
+configuration_id,design,compiled_level_count,penalty_meters,successful_cases,availability_change_percentage_points_vs_baseline,changed_paths_vs_baseline,common_valid_cases,median_length_change_percent_vs_baseline,median_hierarchy_preprocessing_change_percent_vs_baseline,median_query_change_percent_vs_baseline,median_peak_rss_change_percent_vs_baseline
+penalty_low,one_factor_penalty,4,100000000.0,12,0.0,0,12,0.0,-0.7789831852615614,-1.222588810942321,0.010027907142984294
+baseline_n4,reference_configuration,4,1000000000.0,12,0.0,0,12,0.0,0.0,0.0,0.0
+penalty_high,one_factor_penalty,4,10000000000.0,12,0.0,0,12,0.0,0.9561084816219978,0.1016787314529477,-0.0238466962127315
+levels_n3,one_factor_level_count,3,1000000000.0,12,0.0,2,12,0.0,-1.2487329443237771,-0.3972962191569729,-0.11574486747056856
+levels_n5,one_factor_level_count,5,1000000000.0,12,0.0,1,12,0.0,1.1709729831400728,-1.6828976777826465,-0.020417123810517745

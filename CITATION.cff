@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the archived dataset release and the associated article."
+type: dataset
+title: "Research Data for Query-Local Hierarchical Visibility Graphs with Phased Adjacency for Geometry-Derived Maritime Route Construction"
+version: 1.0.0
+date-released: 2026-10-17
+authors:
+  - family-names: Aredah
+    given-names: Ahmed
+    orcid: "https://orcid.org/0000-0003-0186-3783"
+    affiliation: "Texas A&M Transportation Institute"
+  - family-names: Rakha
+    given-names: Hesham A.
+    orcid: "https://orcid.org/0000-0002-5845-2929"
+    affiliation: "Virginia Tech Transportation Institute and Charles E. Via, Jr. Department of Civil and Environmental Engineering, Virginia Tech"
+repository: "https://github.com/AhmedAredah/shipnetsim-trc-research-data"
+url: "https://github.com/AhmedAredah/shipnetsim-trc-research-data"
+license: CC-BY-4.0
+keywords:
+  - maritime routing
+  - visibility graph
+  - hierarchical graph
+  - geometry-derived network
+  - WGS84
+  - transportation research
+  - research data
+abstract: >-
+  Route-level, validation, sensitivity, and performance data supporting the
+  evaluation of query-local hierarchical visibility graphs for constructing
+  maritime routes from polygonal water-domain geometry.

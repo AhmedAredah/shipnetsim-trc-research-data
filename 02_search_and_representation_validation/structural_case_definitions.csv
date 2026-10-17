@@ -1,0 +1,13 @@
+case_id,family,start_longitude_deg,start_latitude_deg,goal_longitude_deg,goal_latitude_deg,source,regional_layer,clip_min_longitude_deg,clip_min_latitude_deg,clip_max_longitude_deg,clip_max_latitude_deg,ring_count,source_coordinate_count
+controlled_open,controlled,-3.0,0.0,3.0,0.0,analytical_fixture,,,,,,1,4
+controlled_single_island,controlled,-3.0,0.0,3.0,0.0,analytical_fixture,,,,,,2,8
+controlled_staggered_islands,controlled,-5.0,0.0,5.0,0.0,analytical_fixture,,,,,,3,12
+controlled_narrow_passage,controlled,-5.0,1.0,5.0,1.0,analytical_fixture,,,,,,3,12
+controlled_concave_water,controlled,-3.0,2.0,3.0,2.0,analytical_fixture,,,,,,1,8
+controlled_island_chain,controlled,-7.0,0.0,7.0,0.0,analytical_fixture,,,,,,6,24
+regional_santos_paranagua,regional,-46.31,-23.96,-48.51,-25.5,Natural Earth Ocean 1:110M v5.1.1 regional clip,santos,-52.0,-29.0,-43.0,-21.0,1,13
+regional_new_york_boston,regional,-74.01,40.71,-71.06,42.36,Natural Earth Ocean 1:110M v5.1.1 regional clip,northeast_us,-78.0,38.0,-65.0,46.0,2,51
+regional_brisbane_newcastle,regional,153.03,-27.47,151.78,-32.93,Natural Earth Ocean 1:110M v5.1.1 regional clip,east_australia,145.0,-36.0,156.0,-23.0,1,23
+regional_singapore_jakarta,regional,103.84,1.26,106.85,-6.11,Natural Earth Ocean 1:110M v5.1.1 regional clip,singapore_jakarta,99.0,-9.0,109.0,4.0,1,58
+regional_piraeus_istanbul,regional,23.65,37.94,28.98,41.01,Natural Earth Ocean 1:110M v5.1.1 regional clip,aegean,18.0,34.0,32.0,44.0,2,83
+regional_surabaya_darwin,regional,112.75,-7.25,130.84,-12.46,Natural Earth Ocean 1:110M v5.1.1 regional clip,timor,108.0,-16.0,134.0,-4.0,5,114

@@ -1,0 +1,8 @@
+source,version,role
+Natural Earth Ocean,1:10M v5.1.1,Primary polygonal water-domain source.
+GSHHG,intermediate-resolution L1 v2.3.7,Independent polygon source for the paired-source study.
+Natural Earth minor-island coastline,1:10M v4.1.0,Auxiliary line layer for the route diagnostic.
+Natural Earth reefs,1:10M v4.0.0,Auxiliary line layer for the route diagnostic.
+SeaRoute,1.6.0,External network used for route-length context.
+Funke et al. implementation,IJCAI 2024 author release,Same-source WGS84-contract indexed-routing adaptation.
+Euclidean Hub Labeling implementation,author repository retrieved 16 October 2026,Hub-label index applied to the identical WGS84 graph control.

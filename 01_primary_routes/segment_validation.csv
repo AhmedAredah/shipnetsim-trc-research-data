@@ -1,0 +1,17 @@
+route_index,from,to,points,segments,length_meters,failed_segments,passed
+1,Antwerpen,Zeebrugge,16,15,93312.79376619059,0,True
+2,Santos,Paranagua,11,10,292557.555748123,0,True
+3,NewYork,Boston,16,15,497413.0036587642,0,True
+4,Brisbane,Newcastle,8,7,794100.6457692388,0,True
+5,Rotterdam,Algeciras,39,38,2535603.191937852,0,True
+6,NewYork,Colon,22,21,4791063.049541613,0,True
+7,Colombo,Jeddah,22,21,5360774.521787376,0,True
+8,Singapore,Busan,29,28,4674677.065404574,0,True
+9,Rotterdam,NewYork,45,44,6167544.795076269,0,True
+10,Santos,CapeTown,7,6,6360347.689428195,0,True
+11,CapeTown,Mumbai,70,69,8918874.238432465,0,True
+12,Yokohama,LongBeach,26,25,9193479.834365802,0,True
+13,Singapore,Jakarta,20,19,982388.9085545602,0,True
+14,Manila,HoChiMinh,23,22,1732995.5426145839,0,True
+15,Piraeus,Istanbul,21,20,650394.7855241157,0,True
+16,Surabaya,Darwin,16,15,2282470.076362186,0,True

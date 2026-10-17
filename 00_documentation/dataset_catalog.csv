@@ -1,0 +1,49 @@
+file_path,section,description
+00_documentation/data_sources.csv,Documentation,"Names, versions, and roles of the data sources and external comparator."
+00_documentation/dataset_catalog.csv,Documentation,Contents and scientific purpose of every packaged CSV.
+00_documentation/evidence_crosswalk.csv,Documentation,Crosswalk from article results to their reviewer-facing CSV evidence.
+00_documentation/software_environment.csv,Documentation,"Software, build, hardware, locale, and thread settings for the reported experiments."
+01_primary_routes/endpoint_details.csv,Endpoint normalization and external comparison,"Submitted, routed, and external-reference endpoint coordinates and offsets."
+01_primary_routes/external_route_comparison.csv,Endpoint normalization and external comparison,"Route lengths, geodesic lower bounds, and SeaRoute comparisons."
+01_primary_routes/hierarchy_scale_results.csv,Primary routes and refinement,Route-level hierarchy-scale treatment outcomes.
+01_primary_routes/maritime_interpretation.csv,Maritime interpretation,Route-level cartographic-contact and course-change diagnostics.
+01_primary_routes/primary_aggregate.csv,Primary routes and refinement,"Aggregate primary-route timing, refinement, and memory statistics."
+01_primary_routes/primary_route_results.csv,Primary routes and refinement,Consolidated outcomes for the 16-route primary evaluation set.
+01_primary_routes/refinement_results.csv,Primary routes and refinement,Route-level chord and bounded quality-expansion outcomes.
+01_primary_routes/route_waypoints.csv,Primary routes and refinement,Ordered WGS84 waypoints for the 16 evaluated primary routes.
+01_primary_routes/routing_mode_results.csv,Primary routes and refinement,Route-level refined and unrefined construction outcomes.
+01_primary_routes/segment_validation.csv,Primary routes and refinement,Independent resampling and boundary-tolerance checks for returned routes.
+02_search_and_representation_validation/astar_dijkstra_results.csv,Fixed-graph search verification,Current A* and Dijkstra outcomes on identical immutable final graphs.
+02_search_and_representation_validation/fixed_graph_search_repetitions.csv,Fixed-graph search verification,All 160 current fixed-graph validation observations; elapsed time is intentionally omitted.
+02_search_and_representation_validation/representation_correctness.csv,Finite-representation analysis,Proposed and complete finite-reference route outcomes and stretch.
+02_search_and_representation_validation/structural_case_definitions.csv,Finite-representation analysis,"Endpoints, sources, clip bounds, and source-coordinate censuses for all structural cases. Controlled cases appear as synthetic_* in the evaluated source code and raw campaign records."
+02_search_and_representation_validation/structural_domain_vertices.csv,Finite-representation analysis,Ordered polygon-ring coordinates for every controlled and regional structural domain.
+03_hierarchy_refinement/component_effects.csv,Component analysis,Leave-one-out and cumulative component contrasts.
+03_hierarchy_refinement/component_level_results.csv,Component analysis,"Per-level graph, predicate, and phase measurements by configuration."
+03_hierarchy_refinement/component_repetitions.csv,Component analysis,All warmup and measured component-analysis process observations.
+03_hierarchy_refinement/component_route_results.csv,Component analysis,Route-level outcomes for all component configurations.
+03_hierarchy_refinement/flat_ablation.csv,Flat-representation controls,Query-local and sparse-flat control results.
+03_hierarchy_refinement/flat_search_repetitions.csv,Flat-representation controls,A* and Dijkstra path and exhaustion outcomes on identical sparse-flat graphs.
+03_hierarchy_refinement/treatment_summary.csv,Hierarchy and refinement treatments,"Route-validity, path-change, length, and admissible-timing summaries by treatment."
+04_parameter_sensitivity/factorial_effects.csv,Parameter sensitivity,Prespecified main and two-factor response contrasts.
+04_parameter_sensitivity/guidance_penalty_results.csv,Parameter sensitivity,One-factor coarse-guidance-penalty results.
+04_parameter_sensitivity/repetitions.csv,Parameter sensitivity,All warmup and measured process observations for the sensitivity design.
+04_parameter_sensitivity/route_configuration_results.csv,Parameter sensitivity,Route-level observations for the sensitivity design.
+05_geometry_and_source_validation/geodesic_screen_case_definitions.csv,Geodesic-screen validation,"Complete routes, generated barriers, and independent reference outcomes for adaptive-screen calibration."
+05_geometry_and_source_validation/geodesic_screen_cases.csv,Geodesic-screen validation,Chord-level adaptive-screen validation cases.
+05_geometry_and_source_validation/geodesic_screen_summary.csv,Geodesic-screen validation,Prespecified adaptive-screen threshold results.
+05_geometry_and_source_validation/hierarchy_census.csv,Geometry definition,Deterministically reconstructed hierarchy and component census.
+05_geometry_and_source_validation/paired_source_cases.csv,Paired-source scope study,All prospective Natural Earth and GSHHG scope-study cells.
+05_geometry_and_source_validation/paired_source_comparison.csv,Paired-source scope study,"Exact OD queries, regional bounds, and paired geographic-source route outcomes."
+05_geometry_and_source_validation/paired_source_route_waypoints.csv,Paired-source scope study,Ordered WGS84 waypoints for all 72 paired-source returned routes.
+05_geometry_and_source_validation/simplification_fidelity.csv,Geometry definition,"Planar-area, Hausdorff-bound, clearance, and validity diagnostics by hierarchy level."
+06_performance/preprocessing_amortization_thresholds.csv,Performance and amortization,Observed hierarchy-preprocessing-share query thresholds.
+06_performance/query_sequence_amortization.csv,Performance and amortization,Hierarchy-preprocessing amortization summaries by query count.
+06_performance/repeated_process_observations.csv,Performance and amortization,"Balanced repeated-process route-processing, phase, graph, and memory observations."
+06_performance/route_position_summary.csv,Performance and amortization,Route-level first-position and later-position timing summaries.
+07_external_method_adaptation/comparison_resources.csv,External method adaptation,Peak process memory and stored serialized artifacts reported in Table 9.
+07_external_method_adaptation/query_timing_observations.csv,External method adaptation,All 70 contraction-hierarchy lookup observations.
+07_external_method_adaptation/route_results.csv,External method adaptation,"Endpoint availability, route lengths, and WGS84 path validation."
+07_external_method_adaptation/source_to_batch_stage_timings.csv,External method adaptation,Complete source-to-batch phase times for the present method and the WGS84 Funke adaptation.
+07_external_method_adaptation/sparse_global_comparison.csv,External method adaptation,"Route-level present, sparse-flat A*/Dijkstra, and EHL measurements under the Figure 6 workload."
+07_external_method_adaptation/summary.csv,External method adaptation,"Adapted graph, availability, validation, and timing census."
